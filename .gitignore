@@ -1,0 +1,72 @@
+# Results folder (keep README, ignore generated files)
+results/*
+!results/README.md
+
+# Environment variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# added for GitHub publish
+node_modules/
+.next/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ppk
+*.crt
+id_ed25519
+id_ed25519.pub
+id_we4u
+id_we4u.pub
+*.zip
+*.rar
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+results/
+runs/
+dataset/
+.hardhat/
+.vscode/
+*.log
+
